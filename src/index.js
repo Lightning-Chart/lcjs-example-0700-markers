@@ -1,4 +1,4 @@
-/**
+/*
  * LightningChartJS example that showcases different XY Markers.
  */
 // Import LightningChartJS
