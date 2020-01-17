@@ -81,7 +81,6 @@ const SeriesMarkerBuilder = MarkerBuilders.XY
             .setOrigin(UIOrigins.CenterBottom)
             .setMargin({ bottom: 0 })
             .setBackground(arrow => arrow
-                .setFillStyle(fill => fill.setColor(ColorRGBA(0, 0, 0, 200)))
                 .setDirection(UIDirections.Down)
                 .setPointerAngle(80)
                 .setPointerLength(20)
