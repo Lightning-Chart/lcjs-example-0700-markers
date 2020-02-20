@@ -22,11 +22,11 @@ The demo can be used as an example or a seed project. Local execution requires t
 This example shows usage of different Markers of the ChartXY environment.
 Markers are custom UI-elements that can be used to draw custom cursors from user side. There are two types of Markers:
 
-### ChartMarker
+## ChartMarker
 
 This type of Marker is placed along two arbitrary axes belonging to a ChartXY. It is positioned with axis values, and will look exactly like an AutoCursor. It also has the same capabilities as one - only difference being that it isn't automatically positioned and hidden when needed, users have full power over this logic.
 
-### SeriesMarker
+## SeriesMarker
 
 SeriesMarkers are a part of certain series (line-series, OHLC, ...?), that can be created using series-method: *addMarker*. Once again, the SeriesMarker doesn't look any different from other Markers, the only logic which it adds is that it automatically latches to the nearest data-point of its owning series, from its current location (which can be set using method: *setPosition*)
 
