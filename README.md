@@ -67,15 +67,15 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © Arction Ltd 2009-2020. All rights reserved.
 
 
-[ChartXY]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/chartxy.html
-[AutoCursorModes]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/enums/autocursormodes.html
-[ProgressiveLineSeries]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/progressivelineseries.html
-[MarkerBuilders]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#markerbuilders
-[UIBackgrounds]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#uibackgrounds
-[ColorRGBA]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#colorrgba
-[UIDirections]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/enums/uidirections.html
-[PointMarker]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/interfaces/pointmarker.html
-[ResultTable]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/interfaces/resulttable.html
-[ChartMarkerXY]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/chartmarkerxy.html
-[UIVisibilityModes]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/enums/uivisibilitymodes.html
+[ChartXY]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/chartxy.html
+[AutoCursorModes]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/enums/autocursormodes.html
+[ProgressiveLineSeries]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/progressivelineseries.html
+[MarkerBuilders]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#markerbuilders
+[UIBackgrounds]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#uibackgrounds
+[ColorRGBA]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#colorrgba
+[UIDirections]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/enums/uidirections.html
+[PointMarker]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/interfaces/pointmarker.html
+[ResultTable]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/interfaces/resulttable.html
+[ChartMarkerXY]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/chartmarkerxy.html
+[UIVisibilityModes]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/enums/uivisibilitymodes.html
 
