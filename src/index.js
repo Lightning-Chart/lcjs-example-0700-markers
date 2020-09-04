@@ -16,7 +16,8 @@ const {
     UIOrigins,
     DataPatterns,
     UIElementBuilders,
-    UIDraggingModes
+    UIDraggingModes,
+    Themes
 } = lcjs
 
 // Import data-generator from 'xydata'-library.
@@ -27,7 +28,9 @@ const {
 const chartTitle = 'Markers'
 
 // Create a XY Chart.
-const chart = lightningChart().ChartXY()
+const chart = lightningChart().ChartXY({
+    // theme: Themes.dark 
+})
     .setTitle(chartTitle)
     // Disable AutoCursor just for focusing on Markers.
     .setAutoCursorMode(AutoCursorModes.disabled)
