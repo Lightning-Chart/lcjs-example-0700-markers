@@ -35,7 +35,7 @@ SeriesMarkers are a part of certain series (line-series, OHLC, ...?), that can b
 
 * [XY cartesian chart]
 * [Auto cursor modes]
-* [Progressive line series]
+* [Line series]
 * [Marker XY builder]
 * [UI backgrounds]
 * [RGBA color factory]
@@ -67,15 +67,15 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © Arction Ltd 2009-2020. All rights reserved.
 
 
-[XY cartesian chart]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/classes/chartxy.html
-[Auto cursor modes]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/enums/autocursormodes.html
-[Progressive line series]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/classes/progressivelineseries.html
-[Marker XY builder]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/globals.html#markerbuilders
-[UI backgrounds]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/globals.html#uibackgrounds
-[RGBA color factory]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/globals.html#colorrgba
-[UIDirections]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/enums/uidirections.html
-[Point marker]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/interfaces/pointmarker.html
-[Result table]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/interfaces/resulttable.html
-[ChartXY marker]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/classes/chartmarkerxy.html
-[Visibility modes for Markers]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/enums/uivisibilitymodes.html
+[XY cartesian chart]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/classes/chartxy.html
+[Auto cursor modes]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/enums/autocursormodes.html
+[Line series]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/classes/lineseries.html
+[Marker XY builder]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/globals.html#markerbuilders
+[UI backgrounds]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/globals.html#uibackgrounds
+[RGBA color factory]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/globals.html#colorrgba
+[UIDirections]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/enums/uidirections.html
+[Point marker]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/interfaces/pointmarker.html
+[Result table]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/interfaces/resulttable.html
+[ChartXY marker]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/classes/chartmarkerxy.html
+[Visibility modes for Markers]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/enums/uivisibilitymodes.html
 

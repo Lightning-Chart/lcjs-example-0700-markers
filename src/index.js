@@ -39,10 +39,10 @@ const chart = lightningChart().ChartXY({
         right: 50
     })
 
-// Add a progressive line series.
-const series = chart.addLineSeries({ dataPattern: DataPatterns.horizontalProgressive })
+// Add a line series.
+const series = chart.addLineSeries()
 
-// Generate random progressive points using 'xydata'-library.
+// Generate random points using 'xydata'-library.
 createProgressiveTraceGenerator()
     .setNumberOfPoints(100)
     .generate()
@@ -99,7 +99,7 @@ const seriesMarker = series.addMarker(SeriesMarkerBuilder)
 
 // Currently the only way to affect the text of Markers ResultTables,
 // is to completely override the series parser for it.
-series.setResultTableFormatter((tableBuilder, series, x, y) => tableBuilder
+series.setCursorResultTableFormatter((tableBuilder, series, x, y) => tableBuilder
     .addRow('SeriesMarker')
     .addRow('X', x.toFixed(1))
     .addRow('Y', y.toFixed(1))
