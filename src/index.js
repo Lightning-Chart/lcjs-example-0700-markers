@@ -8,13 +8,11 @@ const lcjs = require('@arction/lcjs')
 const {
     lightningChart,
     AutoCursorModes,
-    ColorRGBA,
     UIVisibilityModes,
     MarkerBuilders,
     UIBackgrounds,
     UIDirections,
     UIOrigins,
-    DataPatterns,
     UIElementBuilders,
     UIDraggingModes,
     Themes
@@ -29,7 +27,7 @@ const chartTitle = 'Markers'
 
 // Create a XY Chart.
 const chart = lightningChart().ChartXY({
-    // theme: Themes.dark 
+    // theme: Themes.darkGold 
 })
     .setTitle(chartTitle)
     // Disable AutoCursor just for focusing on Markers.
@@ -107,7 +105,7 @@ series.setCursorResultTableFormatter((tableBuilder, series, x, y) => tableBuilde
 // ... However, this will also apply to AutoCursor.
 
 // Add download button to save chart frame
-chart.addUIElement(UIElementBuilders.ButtonBox.setBackground(UIBackgrounds.Rectangle))
+chart.addUIElement(UIElementBuilders.ButtonBox)
     .setPosition({ x: 99, y: 99 })
     .setOrigin(UIOrigins.RightTop)
     .setText('Download PNG Image')
