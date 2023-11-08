@@ -100,8 +100,7 @@ chart
     .setOrigin(UIOrigins.RightTop)
     .setText('Download PNG Image')
     .setPadding({ top: 5, right: 20, bottom: 5, left: 20 })
-    .setButtonOffSize(0)
-    .setButtonOnSize(0)
+    .setButtonSize(0)
     .setDraggingMode(UIDraggingModes.notDraggable)
     .onMouseClick((event) => {
         chart.saveToFile(chartTitle + ' - Screenshot')
