@@ -29,7 +29,7 @@ const chartTitle = 'Markers'
 // Create a XY Chart.
 const chart = lightningChart()
     .ChartXY({
-        // theme: Themes.darkGold
+        theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
     })
     .setTitle(chartTitle)
     // Disable AutoCursor just for focusing on Markers.
@@ -68,20 +68,17 @@ createProgressiveTraceGenerator()
 // ----- SeriesMarker -----
 
 // Create a builder for SeriesMarker to allow for full modification of its structure.
-const SeriesMarkerBuilder = MarkerBuilders.XY.setPointMarker(UIBackgrounds.Circle)
-    .setResultTableBackground(UIBackgrounds.Pointer)
-    .addStyler((marker) =>
-        marker
-            .setPointMarker((point) => point.setSize({ x: 5, y: 5 }))
-            .setResultTable((table) =>
-                table
-                    .setOrigin(UIOrigins.CenterBottom)
-                    .setMargin({ bottom: 0 })
-                    .setBackground((arrow) => arrow.setDirection(UIDirections.Down).setPointerAngle(80).setPointerLength(20)),
-            )
-            .setGridStrokeXCut(true)
-            .setAutoFitStrategy(undefined),
-    )
+const SeriesMarkerBuilder = MarkerBuilders.SeriesMarkerXY.setResultTableBackground(UIBackgrounds.Pointer).addStyler((marker) =>
+    marker
+        .setResultTable((table) =>
+            table
+                .setOrigin(UIOrigins.CenterBottom)
+                .setMargin({ bottom: 0 })
+                .setBackground((arrow) => arrow.setDirection(UIDirections.Down).setPointerAngle(80).setPointerLength(20)),
+        )
+        .setGridStrokeXCut(true)
+        .setAutoFitStrategy(undefined),
+)
 
 // Add a SeriesMarker to the series.
 const seriesMarker = series.addMarker(SeriesMarkerBuilder).setPosition({ x: 50, y: 0 })
