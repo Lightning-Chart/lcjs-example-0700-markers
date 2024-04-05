@@ -27,7 +27,9 @@ const { createProgressiveTraceGenerator } = xydata
 const chartTitle = 'Markers'
 
 // Create a XY Chart.
-const chart = lightningChart()
+const chart = lightningChart({
+            resourcesBaseUrl: new URL(document.head.baseURI).origin + new URL(document.head.baseURI).pathname + 'resources/',
+        })
     .ChartXY({
         theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
     })
