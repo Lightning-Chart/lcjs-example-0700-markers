@@ -2,10 +2,10 @@
  * LightningChartJS example that showcases different XY Markers.
  */
 // Import LightningChartJS
-const lcjs = require('@arction/lcjs')
+const lcjs = require('@lightningchart/lcjs')
 
 // Import xydata
-const xydata = require('@arction/xydata')
+const xydata = require('@lightningchart/xydata')
 
 // Extract required parts from LightningChartJS.
 const {
@@ -35,7 +35,7 @@ const chart = lightningChart({
     })
     .setTitle(chartTitle)
     // Disable AutoCursor just for focusing on Markers.
-    .setAutoCursorMode(AutoCursorModes.disabled)
+    .setCursorMode(undefined)
     // Preventing ResultTable from getting cut at the edge
     .setPadding({
         right: 50,
@@ -84,13 +84,6 @@ const SeriesMarkerBuilder = MarkerBuilders.SeriesMarkerXY.setResultTableBackgrou
 
 // Add a SeriesMarker to the series.
 const seriesMarker = series.addMarker(SeriesMarkerBuilder).setPosition({ x: 50, y: 0 })
-
-// Currently the only way to affect the text of Markers ResultTables,
-// is to completely override the series parser for it.
-series.setCursorResultTableFormatter((tableBuilder, series, x, y) =>
-    tableBuilder.addRow('SeriesMarker').addRow('X', x.toFixed(1)).addRow('Y', y.toFixed(1)),
-)
-// ... However, this will also apply to AutoCursor.
 
 // Add download button to save chart frame
 chart
