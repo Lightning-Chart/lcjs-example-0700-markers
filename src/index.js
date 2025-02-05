@@ -10,7 +10,6 @@ const xydata = require('@lightningchart/xydata')
 // Extract required parts from LightningChartJS.
 const {
     lightningChart,
-    AutoCursorModes,
     UIVisibilityModes,
     MarkerBuilders,
     UIBackgrounds,
@@ -94,6 +93,6 @@ chart
     .setPadding({ top: 5, right: 20, bottom: 5, left: 20 })
     .setButtonSize(0)
     .setDraggingMode(UIDraggingModes.notDraggable)
-    .onMouseClick((event) => {
+    .addEventListener('click', (event) => {
         chart.saveToFile(chartTitle + ' - Screenshot')
     })
