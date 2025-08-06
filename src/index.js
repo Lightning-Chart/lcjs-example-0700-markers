@@ -30,6 +30,7 @@ const chart = lightningChart({
             resourcesBaseUrl: new URL(document.head.baseURI).origin + new URL(document.head.baseURI).pathname + 'resources/',
         })
     .ChartXY({
+        legend: { visible: false },
         theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
     })
     .setTitle(chartTitle)
@@ -50,7 +51,7 @@ createProgressiveTraceGenerator()
     .toPromise()
     .then((data) => {
         const axisYAvg = (data[0].y + data[data.length - 1].y) / 2
-        series.add(data)
+        series.appendJSON(data)
         // ----- ChartMarker -----
 
         // Add a ChartMarker to the chart.
@@ -78,7 +79,7 @@ const SeriesMarkerBuilder = MarkerBuilders.SeriesMarkerXY.setResultTableBackgrou
                 .setBackground((arrow) => arrow.setDirection(UIDirections.Down).setPointerAngle(80).setPointerLength(20)),
         )
         .setGridStrokeXCut(true)
-        .setAutoFitStrategy(undefined),
+        .setAutoFit(false),
 )
 
 // Add a SeriesMarker to the series.
