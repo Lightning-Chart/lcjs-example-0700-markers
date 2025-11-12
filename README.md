@@ -67,15 +67,15 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2025. All rights reserved.
 
 
-[XY cartesian chart]: https://lightningchart.com/js-charts/api-documentation/v8.0.1/classes/ChartXY.html
-[Auto cursor modes]: https://lightningchart.com/js-charts/api-documentation/v8.0.1/enums/AutoCursorModes.html
-[Line series]: https://lightningchart.com/js-charts/api-documentation/v8.0.1/classes/LineSeries.html
-[Marker XY builder]: https://lightningchart.com/js-charts/api-documentation/v8.0.1/variables/MarkerBuilders.html
-[UI backgrounds]: https://lightningchart.com/js-charts/api-documentation/v8.0.1/variables/UIBackgrounds.html
-[RGBA color factory]: https://lightningchart.com/js-charts/api-documentation/v8.0.1/functions/ColorRGBA.html
-[UIDirections]: https://lightningchart.com/js-charts/api-documentation/v8.0.1/enums/UIDirections.html
-[Point marker]: https://lightningchart.com/js-charts/api-documentation/v8.0.1/interfaces/PointMarker.html
-[Result table]: https://lightningchart.com/js-charts/api-documentation/v8.0.1/interfaces/ResultTable.html
-[ChartXY marker]: https://lightningchart.com/js-charts/api-documentation/v8.0.1/classes/ChartMarkerXY.html
-[Visibility modes for Markers]: https://lightningchart.com/js-charts/api-documentation/v8.0.1/enums/UIVisibilityModes.html
+[XY cartesian chart]: https://lightningchart.com/js-charts/api-documentation/v8.1.0/classes/ChartXY.html
+[Auto cursor modes]: https://lightningchart.com/js-charts/api-documentation/v8.1.0/interfaces/ChartWithCursor.html#setCursorMode
+[Line series]: https://lightningchart.com/js-charts/api-documentation/v8.1.0/classes/PointLineAreaSeries.html
+[Marker XY builder]: https://lightningchart.com/js-charts/api-documentation/v8.1.0/classes/CursorXY.html
+[UI backgrounds]: https://lightningchart.com/js-charts/api-documentation/v8.1.0/variables/UIBackgrounds.html
+[RGBA color factory]: https://lightningchart.com/js-charts/api-documentation/v8.1.0/functions/ColorRGBA.html
+[UIDirections]: https://lightningchart.com/js-charts/api-documentation/v8.1.0/enums/UIDirections.html
+[Point marker]: https://lightningchart.com/js-charts/api-documentation/v8.1.0/interfaces/PointMarker.html
+[Result table]: https://lightningchart.com/js-charts/api-documentation/v8.1.0/interfaces/ResultTable.html
+[ChartXY marker]: https://lightningchart.com/js-charts/api-documentation/v8.1.0/classes/CursorXY.html
+[Visibility modes for Markers]: https://lightningchart.com/js-charts/api-documentation/v8.1.0/enums/UIVisibilityModes.html
 
